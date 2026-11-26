@@ -3,6 +3,7 @@
 
 Writes the entry -- one line of at most 200 characters -- to
 /output/entry.txt, where the competition's sealed scorer reads it.
+The line is validated for length and single-line form before writing.
 """
 
 from pathlib import Path
